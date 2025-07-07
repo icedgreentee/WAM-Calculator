@@ -1,0 +1,107 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f0f7f0; /* subtle greenish background */
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 700px;
+  margin: auto;
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 100, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #2f6627; /* dark green header */
+}
+
+.subject {
+  border: 1px solid #a3d29f;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  background: #e9f5e9;
+}
+
+.subject-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.subject-header input[type="text"],
+.subject-header input[type="number"] {
+  padding: 8px;
+  margin-right: 10px;
+  font-size: 1em;
+  width: 180px;
+  border: 1px solid #7cc47c;
+  border-radius: 4px;
+  background: #f3fbf3;
+  color: #2f6627;
+}
+
+.components {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.component-row {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+
+.component-row input[type="text"],
+.component-row input[type="number"] {
+  padding: 6px;
+  font-size: 0.9em;
+  width: 120px;
+  border: 1px solid #7cc47c;
+  border-radius: 4px;
+  background: #f3fbf3;
+  color: #2f6627;
+}
+
+button {
+  padding: 8px 12px;
+  background-color: #4caf50; /* green button */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: #357a38; /* darker green on hover */
+}
+
+.removeBtn {
+  background-color: #c0392b; /* a dark red for remove buttons (contrast) */
+}
+
+.removeBtn:hover {
+  background-color: #7a1f17;
+}
+
+#result {
+  margin-top: 25px;
+  font-size: 1.3em;
+  font-weight: bold;
+  text-align: center;
+  color: #2f6627; /* dark green for results */
+}
+
+/* Final score text inside subject */
+.final-score {
+  color: #2f6627;
+  font-weight: bold;
+  margin-top: 8px;
+}
